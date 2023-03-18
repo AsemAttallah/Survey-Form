@@ -92,6 +92,9 @@ padding: 10px;
 margin: 10px;
 background-color: #54c480;
 }
+.submi:hover{
+    background-color: #B46060;
+}
 article{
     text-align: center;
 }
