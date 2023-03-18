@@ -86,13 +86,13 @@ option{
     width: 100%;
     height: 50px;
 }
-.submi{
+#submit{
 width:300px; 
 padding: 10px;
 margin: 10px;
 background-color: #54c480;
 }
-.submi:hover{
+#submit:hover{
     background-color: #B46060;
 }
 article{

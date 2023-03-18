@@ -13,12 +13,12 @@
     <p id="description">I will be very happy to share with me your thoughts about opening new restaurant in Amman </p>
     <form id="survey-form">
         <div class="info">
-            <label for="name" class="info1">Name<input type="text" id="name" required ></label>
-            <label for="number" class="info1">Age<input type="number" id="number" min="18" max="130" ></label>
-            <label for="email" class="info1">E-mail<input type="email" id="email" required ></label>           
+            <label for="name"  id="name-label" class="info1">Name<input placeholder="name" type="text" id="name" required ></label>
+            <label for="number" id="number-label" class="info1">Age<input type="number" placeholder="number" id="number" min="18" max="130" ></label>
+            <label for="email" id="email-label" class="info1">E-mail<input type="email" placeholder="email"  id="email" required ></label>           
             <label class="where" class="where1" class="info1">Do you live in Amman?</label>
-            <label for="yes" class="where" class="info1"><input type="radio" id="yes" name="amman">Yes</label>
-            <label for="no" class="where" class="info1"><input type="radio" id="no" name="amman">No</label>
+            <label for="yes" class="where" class="info1"><input type="radio" id="yes" value="yes" name="amman">Yes</label>
+            <label for="no" class="where" class="info1"><input type="radio" value="no" id="no" name="amman">No</label>
         </div>
         <div>
             <label for="open" class="madi" class="oo">IN Al-Madina Al-Monawara street which kind of restaurant you suggest to open?</label>
@@ -31,8 +31,8 @@
                 <option value="5">Other</option>
             </select>
             <label >When you want to buy a food what do you prefer?</label>
-            <label for="prefer1"><input type="radio" id="prefer1" name="option">Pick-up it</label>
-            <label for="prefer2"><input type="radio" id="prefer2" name="option" class="info1">Eat in the restaurant</label>
+            <label for="prefer1"><input type="radio" value="Pick-up" id="prefer1" name="option">Pick-up it</label>
+            <label for="prefer2"><input type="radio" value="in-restaurant" id="prefer2" name="option" class="info1">Eat in the restaurant</label>
             <label class="choose">Choose the services that you think it will make this restaurant very good?</label>
             <label for="check1" class="op">Delivery<input type="checkbox" id="check1" value="Delivery"></label>
             <label for="check2" class="op">Parking<input type="checkbox" id="check2" value="Parking"></label>
@@ -43,7 +43,7 @@
         </div>
         <div>
             <textarea name="otherSuggestion" id="otherSuggestion" placeholder="Add other suggestion here:" cols="30" rows="10"></textarea> 
-            <article><input type="submit" class="submi"></article>
+            <article><input type="submit" id="submit"></article>
             
         </div> 
         
